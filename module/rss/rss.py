@@ -147,6 +147,6 @@ async def format_rss_entry(entry):
     msg = (
         f"<b><blockquote>{title}</blockquote></b>\n"
         f"<b><blockquote expandable><i>{summary}</i></blockquote expandable>\n"
-        f"<b><blockquote><a href='{link}'>Source</a></blockquote>\n»@Anime_News_Arena</b>"
+        f"<b><blockquote><a href='{link}'>────「  📖 SOURCE  」</a></blockquote>\n» @Anime_News_Arena</b>"
     )
     return msg, thumbnail_url, link
